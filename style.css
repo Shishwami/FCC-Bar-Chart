@@ -9,23 +9,28 @@ html {
   box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 body {
-  background-color: antiquewhite;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
+  background-color: #252525;
 }
 
 #app-container {
-  background-color: azure;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #5ce4e4;
+}
+
+#app-container #title {
+  margin: 5px 0;
+  padding: 5px 0;
+  text-align: center;
 }
 
 #tooltip {
+  font-family: Arial, sans-serif;
   font-size: 14px;
   color: black;
   background: white;

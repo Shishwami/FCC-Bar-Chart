@@ -6,15 +6,16 @@ fetch(url)
     .then(response => response.json())
     .then(data => {
         const dataset = data.data
-        const datas = data
-        delete datas.data
-        console.log(datas);
-
 
         const h = 400;
         const w = 600;
         const padding = 30;
         const left_padding = 15;
+
+        const title = d3.select("#app")
+            .append("h1")
+            .attr("id","title")
+            .text("United States GDP")
 
         const svg = d3.select("#app")
             .append("svg")

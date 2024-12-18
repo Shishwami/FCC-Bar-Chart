@@ -45,6 +45,7 @@ The project uses the GDP dataset provided by FreeCodeCamp, available [here](http
 ---
 
 ##Live Demo
+
 Check out the live demo [here](https://shishwami.github.io/FCC-Bar-Chart/).
 
 ## Credits

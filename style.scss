@@ -1,5 +1,5 @@
 .bar {
-    fill: blue;
+    fill: rgb(62, 168, 255);
 }
 
 body,
@@ -9,6 +9,9 @@ html {
     box-sizing: border-box;
 }
 
+*{
+    // outline: 1px solid red;
+}
 
 body {
     height: 100vh;
@@ -23,25 +26,36 @@ body {
     font-family: Arial, sans-serif;
 
     padding: 20px;
-    background-color: rgb(92, 228, 228);
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 5px;
 
     #title {
         margin: 5px 0;
         padding: 5px 0;
         text-align: center;
     }
+    #y-label{
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
 }
 
 
 #tooltip {
     font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: black;
-    background: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
     pointer-events: none;
-    opacity: 0;
     transition: opacity 0.2s ease;
+    opacity: 0;
+
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+
+    p{
+        padding: px;
+        margin: 5px;
+    }
+
 }

@@ -1,5 +1,5 @@
 .bar {
-  fill: blue;
+  fill: #3ea8ff;
 }
 
 body,
@@ -20,7 +20,8 @@ body {
 #app-container {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #5ce4e4;
+  background-color: white;
+  border-radius: 5px;
 }
 
 #app-container #title {
@@ -29,15 +30,23 @@ body {
   text-align: center;
 }
 
+#app-container #y-label {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 #tooltip {
   font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: black;
-  background: white;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
   pointer-events: none;
-  opacity: 0;
   transition: opacity 0.2s ease;
+  opacity: 0;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+#tooltip p {
+  padding: px;
+  margin: 5px;
 }
